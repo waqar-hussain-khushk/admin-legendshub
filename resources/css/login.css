@@ -1,0 +1,65 @@
+@font-face {
+    font-family: ethnocentric;
+    src: url(/admin_area/resources/fonts/ethnocentric/ethnocentric.ttf);
+  }
+body{
+
+padding-top:10%;
+background-color: #facc04;
+}
+
+.form-login {
+max-width:350px;
+padding:40px;
+border-radius:30px;
+background:#000;
+margin:0 auto;
+
+}
+.btn-primary {
+    color: #000;
+    background-color: #facc04;
+    border-color: #000;
+}
+.btn-primary:hover, 
+.btn-primary:focus {
+    color: #facc04;
+    background-color: #000;
+    border-color: #facc04;
+}
+
+.form-login .form-login-heading img{
+    margin-top: 0;
+}
+
+.form-login .form-login-heading {
+    color: #facc04;
+    text-align: center;
+    font-family: ethnocentric;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.form-login .form-control {
+position:relative;
+height:auto;
+box-sizing:border-box;
+padding:10px;
+font-size:16px;
+
+}
+
+.form-login input[type="text"] {
+margin-bottom:5px;
+border-bottom-right-radius:0;
+border-bottom-left-radius: 0;
+
+}
+
+.form-login input[type="password"] {
+margin-bottom:10px;
+border-top-left-radius: 0;
+border-top-right-radius:0;
+
+
+}
